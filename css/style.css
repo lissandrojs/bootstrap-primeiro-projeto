@@ -1,0 +1,31 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.navbar{
+    background-color: #040C5C;
+}
+.section-down-navbar{
+    background-color: #04625C; 
+}
+.margin{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+}
+
+.section-parceiros{
+    background-color: #034641;
+}
+
+.servicos{
+    background-color: #012724;
+    
+}
+.servicos p{
+    text-align: left;
+    padding: 10px ;
+}
+.bg-footer{
+    background-color: #011a17;
+}

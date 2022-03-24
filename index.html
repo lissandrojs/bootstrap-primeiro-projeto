@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-md ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My page</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#quemsomos">Quem somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="#parceiros">Parceiros</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#servicos" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>    
+
+      <section id="quemsomos">
+        <div class="container-fluid text-center section-down-navbar margin" >
+            <h3>Quem somos</h3>
+            <img src="/img/time.webp" width="400"  height="400" class="rounded-circle">
+            <h3>Somos um time comprometido com os resultas</h3>
+        </div>
+      </section>
+
+      <section id="parceiros">
+          <div class="container-fluid text-center margin section-parceiros">
+            <h3>
+                Parceiros
+            </h3>
+            <div class="container">
+                <div class="row">
+                    <div  class="col-lg-4 margin"> 
+                        <img width="200" height="200"  src="/img/time1.jpeg">
+                    </div>
+                    <div  class="col-lg-4  margin"> 
+                        <img width="200" height="200"  src="/img/time2.jpeg">
+                    </div>
+                    <div  class="col-lg-4  margin"> 
+                        <img width="200" height="200" src="/img/time3.webp">
+                    </div>
+                   
+
+                </div>
+            </div>
+          </div>
+      </section>
+
+      <section id="servicos">
+        <div class="container-fluid text-center margin servicos">
+            <h3>
+                Serviço
+            </h3>
+            <div class="container ">
+                <div class="row">
+                    <div class="col-lg-6 margin ">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img src="/img/servico1.webp" width="100%" alt="Serviço">
+                    </div>
+                    
+                    <div class="col-lg-6 margin">
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                        <img src="/img/servico2.webp" width="100%" alt="Serviço">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+      </section>
+
+      <footer class="container-fluid bg-footer text-center margin">
+          <p>Desenvolvido por : Lissandro Miranda</p>
+      </footer>
+</body>
+</html>
